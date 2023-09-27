@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Form</title>
+</head>
+
+<body>
+    <!-- 
+        tag form digunakan untuk membuat form pada html
+        action digunakan untuk mengarahkan form ke halaman lain
+        method digunakan untuk menentukan metode pengiriman data,
+        label digunakan untuk menampilkan infromasi input
+        input digunakan untuk membuat inputan
+        type digunakan untuk menentukan tipe inputan
+        name digunakan menentukan nama inputan
+        button type submit digunakan untuk mengirim form
+     -->
+    <form action="" method="get">
+        <label for="email">Email</label>
+        <input type="email" name="email">
+
+        <br>
+
+        <label for="nama">Nama</label>
+        <input type="text" name="Rora">
+
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password">
+
+        <br>
+
+        <label for="jenis_kelamin">Jenis Kelamin</label>
+        <input type="radio" name="jenis_kelamin" value="laki-laki">Laki-laki
+        <input type="radio" name="jenis_kelamin" value="perempuan">Perempuan
+
+        <br>
+
+        <label for="agama">Agama</label>
+        <select name="agamaa">
+            <option value="islam">Islam</option>
+            <option value="kristen">Kristen</option>
+            <option value="hindu">Hindu</option>
+            <option value="budha">Budha</option>
+        </select>
+
+        <br>
+
+        <label for="alamat">Alamat</label>
+        <br>
+        <textarea name="alamat" id="" cols="50" rows="10"></textarea>
+
+        <br>
+
+        <label for="Hobi">Hobi</label>
+        <input type="checkbox" name="hobi[]" value="rebahan">Rebahan
+        <input type="checkbox" name="hobi[]" value="berenang">berenang
+        <input type="checkbox" name="hobi[]" value="mendengarkan musik">Mendengarkan Musik 
+
+        <br>
+
+        <label for="foto">Foto</label>
+        <input type="file" name="foto">
+
+        <br>
+
+        <label for="tanggal_lahir">Tanggal Lahir</label>
+        <input type="date" name="tanggal_lahir">
+
+        <br>
+
+        <button type="submit">Daftar</button>
+
+        <br>
+
+        <button type="reset">Bersihkan</button>
+    </form>
+</body>
+
+</html>
